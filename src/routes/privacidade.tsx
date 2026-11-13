@@ -51,7 +51,7 @@ function Privacidade() {
       <p>
         Para pedidos de acesso, correcção ou eliminação de dados, contactar a MOATOIO através do WhatsApp:{" "}
         <a href={waLink()} target="_blank" rel="noopener">
-          https://wa.me/258879532393
+          https://wa.me/258848252561
         </a>
         .
       </p>

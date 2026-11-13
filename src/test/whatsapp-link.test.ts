@@ -4,7 +4,7 @@ import { WA_MESSAGES, waLink } from "@/lib/site-content";
 describe("WhatsApp order links", () => {
   it("opens the MOATOIO number with the chosen service message pre-filled", () => {
     const url = new URL(waLink("video"));
-    expect(url.origin + url.pathname).toBe("https://wa.me/258879532393");
+    expect(url.origin + url.pathname).toBe("https://wa.me/258848252561");
     expect(url.searchParams.get("text")).toBe(WA_MESSAGES.video);
   });
 

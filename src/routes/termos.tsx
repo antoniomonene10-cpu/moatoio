@@ -67,7 +67,7 @@ function Termos() {
       <p>
         Pedidos e esclarecimentos:{" "}
         <a href={wa} target="_blank" rel="noopener">
-          https://wa.me/258879532393
+          https://wa.me/258848252561
         </a>
         .
       </p>

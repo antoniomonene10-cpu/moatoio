@@ -1,5 +1,5 @@
-export const WHATSAPP_NUMBER = "258879532393";
-export const WHATSAPP_DISPLAY = "+258 87 953 2393";
+export const WHATSAPP_NUMBER = "258848252561";
+export const WHATSAPP_DISPLAY = "+258 84 825 2561";
 export const INSTAGRAM_URL = "https://www.instagram.com/moatoio/";
 export const TIKTOK_URL = "https://www.tiktok.com/@moatoio";
 
