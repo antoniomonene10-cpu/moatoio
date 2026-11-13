@@ -42,7 +42,7 @@ export function Reel({ id, label, auto = false, children }: { id: string; label:
     const reduce = window.matchMedia("(prefers-reduced-motion:reduce)").matches;
     if (auto && !reduce) {
       let visible = true;
-      io = new IntersectionObserver((e) => (visible = e[0].isIntersecting));
+      io = new IntersectionObserver((e) => (visible = e[0]?.isIntersecting ?? visible));
       io.observe(el);
       const step = () => {
         if (visible && !paused && w) el.scrollLeft += 0.6;

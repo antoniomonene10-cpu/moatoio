@@ -64,9 +64,10 @@ function Index() {
           const v = e.target as HTMLVideoElement;
           if (e.isIntersecting) {
             const s = v.querySelector("source");
-            if (s?.dataset.src) {
-              s.src = s.dataset.src;
-              delete s.dataset.src;
+            const pending = s?.dataset["src"];
+            if (s && pending) {
+              s.src = pending;
+              delete s.dataset["src"];
               v.load();
             }
             v.play()?.catch(() => undefined);
