@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useCallback, useEffect, useRef, useState } from "react";
 
+import ogShare from "@/assets/og-share.jpg.asset.json";
 import { BackToTop } from "@/components/site/BackToTop";
 import { BrandMark } from "@/components/site/Brand";
 import { LegalFooter } from "@/components/site/LegalFooter";
@@ -17,6 +18,8 @@ const TITLE = "MOATOIO | Vídeos e Fotografias Publicitárias em Moçambique";
 const DESCRIPTION =
   "Criamos vídeos publicitários, fotografias profissionais e carrosséis para produtos usando inteligência artificial. Envia uma fotografia e pede o teu orçamento à MOATOIO.";
 
+const OG_IMAGE_URL = `https://moatoio.lovable.app${ogShare.url}`;
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -32,9 +35,13 @@ export const Route = createFileRoute("/")({
       { property: "og:locale", content: "pt_MZ" },
       { property: "og:title", content: "MOATOIO | Uma fotografia do produto, um vídeo com o produto." },
       { property: "og:description", content: "Transformamos fotografias de produtos em conteúdos publicitários profissionais." },
+      { property: "og:image", content: OG_IMAGE_URL },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "MOATOIO | Uma fotografia do produto, um vídeo com o produto." },
       { name: "twitter:description", content: "Transformamos fotografias de produtos em conteúdos publicitários profissionais." },
+      { name: "twitter:image", content: OG_IMAGE_URL },
     ],
     links: [
       { rel: "preload", as: "image", href: media("img/work/w04.webp") },
