@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none" stroke="#C6A15B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <title>Câmara de vídeo</title>
+  <path d="M24 38 V30 a4 4 0 0 1 4 -4 H44 L50 34"/>
+  <rect x="14" y="34" width="70" height="56" rx="8"/>
+  <rect x="24" y="46" width="40" height="32" rx="2"/>
+  <circle cx="74" cy="48" r="2.5" fill="#C6A15B" stroke="none"/>
+  <path d="M84 56 L108 42 V88 L84 74 Z"/>
+</svg>

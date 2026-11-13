@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none" stroke="#C6A15B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <title>Documento com visto</title>
+  <path d="M38 14 H76 L100 38 V108 a6 6 0 0 1 -6 6 H38 a6 6 0 0 1 -6 -6 V20 a6 6 0 0 1 6 -6 Z"/>
+  <path d="M76 14 V34 a4 4 0 0 0 4 4 H100"/>
+  <path d="M50 76 L62 88 L84 62"/>
+</svg>

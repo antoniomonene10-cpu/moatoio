@@ -1,15 +1,10 @@
-import manifest from "./media-manifest.json";
-
-const MEDIA = manifest as Record<string, string>;
-
-/** Resolve an original site path (e.g. "img/work/t01.webp") to its hosted CDN URL. */
+/**
+ * Resolve an original site path (e.g. "img/work/t01.webp") to its public URL.
+ * Files live in `public/img` and `public/vid`, so they are served from the
+ * site's own domain on any host (Lovable, Vercel, …).
+ */
 export function media(path: string): string {
-  const url = MEDIA[path];
-  if (!url) {
-    console.warn(`[media] missing asset: ${path}`);
-    return `/${path}`;
-  }
-  return url;
+  return `/${path.replace(/^\/+/, "")}`;
 }
 
 /** Two-digit index used by the original file names (00, 01, …). */

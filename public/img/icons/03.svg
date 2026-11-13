@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none" stroke="#C6A15B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <title>Grelha de cartões</title>
+  <rect x="18" y="18" width="40" height="40" rx="6"/>
+  <rect x="25" y="25" width="8" height="8" rx="1.5"/>
+  <path d="M58 43 L43 58 H58 Z" fill="#C6A15B"/>
+  <rect x="18" y="70" width="40" height="40" rx="6"/>
+  <rect x="25" y="77" width="8" height="8" rx="1.5"/>
+  <path d="M58 95 L43 110 H58 Z" fill="#C6A15B"/>
+  <rect x="70" y="18" width="40" height="40" rx="6"/>
+  <rect x="77" y="25" width="8" height="8" rx="1.5"/>
+  <path d="M110 43 L95 58 H110 Z" fill="#C6A15B"/>
+  <rect x="70" y="70" width="40" height="40" rx="6"/>
+  <rect x="77" y="77" width="8" height="8" rx="1.5"/>
+  <path d="M110 95 L95 110 H110 Z" fill="#C6A15B"/>
+</svg>

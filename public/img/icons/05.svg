@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none" stroke="#C6A15B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <title>Edição de vídeo</title>
+  <rect x="12" y="18" width="104" height="14"/>
+  <rect x="12" y="58" width="104" height="14"/>
+  <path d="M24 32 V58 M104 32 V58"/>
+  <path d="M20 22 V28 M20 62 V68 M32 22 V28 M32 62 V68 M44 22 V28 M44 62 V68 M56 22 V28 M56 62 V68 M68 22 V28 M68 62 V68 M80 22 V28 M80 62 V68 M92 22 V28 M92 62 V68 M104 22 V28 M104 62 V68" stroke-width="3"/>
+  <path d="M88 12 L50 100"/>
+  <path d="M60 12 L80 100"/>
+  <circle cx="44" cy="110" r="9"/>
+  <circle cx="86" cy="110" r="9"/>
+</svg>

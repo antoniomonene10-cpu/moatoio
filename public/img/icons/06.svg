@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none" stroke="#C6A15B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <title>Balão de texto</title>
+  <path d="M30 30 H98 A16 16 0 0 1 114 46 V74 A16 16 0 0 1 98 90 H54 L36 108 V90 H30 A16 16 0 0 1 14 74 V46 A16 16 0 0 1 30 30 Z"/>
+  <circle cx="38" cy="60" r="5" fill="#C6A15B" stroke="none"/>
+  <circle cx="64" cy="60" r="5" fill="#C6A15B" stroke="none"/>
+  <circle cx="90" cy="60" r="5" fill="#C6A15B" stroke="none"/>
+</svg>

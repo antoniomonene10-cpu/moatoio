@@ -31,6 +31,6 @@ use the editor.
 
 ## Project rules
 
-- Media (photos, videos, textures) live on the Lovable CDN; `src/lib/media-manifest.json` maps original site paths to CDN URLs and code resolves them with `media()` — keeps binaries out of git and the original file names usable.
+- Media (photos, videos, textures, share image) live in `public/img`, `public/vid` and `public/og-share.jpg`, referenced by root-relative paths via `media()` — same-origin files work on any host (Lovable or Vercel), unlike Lovable-only CDN paths.
 - `src/styles.css` loads Tailwind theme + utilities without Preflight and carries the landing page's original hand-written CSS — the migrated layout depends on browser-default base styles.
 - WhatsApp number, pre-filled order messages and FAQ live in `src/lib/site-content.ts` — one place to edit business copy reused across pages.

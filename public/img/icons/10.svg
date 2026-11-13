@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none" stroke="#C6A15B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <title>Caixa com seta</title>
+  <path d="M56 72 V30 H46 L64 10 L82 30 H72 V72"/>
+  <path d="M24 72 L10 56 L40 46 L50 62"/>
+  <path d="M104 72 L118 56 L88 46 L78 62"/>
+  <path d="M24 72 L64 92 L104 72 V102 L64 122 L24 102 Z"/>
+  <path d="M64 92 V122"/>
+</svg>

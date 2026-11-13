@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none" stroke="#C6A15B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <title>Estrela tecnológica</title>
+  <path d="M64 14 L79.3 47 L115.4 51.3 L88.7 76 L95.7 111.7 L64 94 L32.3 111.7 L39.3 76 L12.6 51.3 L48.7 47 Z"/>
+  <path d="M64 92 V63"/><circle cx="64" cy="58" r="3.5"/>
+  <path d="M52 86 V74 L47 69"/><circle cx="46" cy="65" r="3.5"/>
+  <path d="M76 86 V74 L81 69"/><circle cx="82" cy="65" r="3.5"/>
+</svg>

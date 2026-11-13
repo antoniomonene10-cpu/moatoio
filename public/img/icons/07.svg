@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none" stroke="#C6A15B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <title>Relógio</title>
+  <circle cx="64" cy="64" r="52"/>
+  <path d="M64.0 26.0 L64.0 18.0 M85.0 27.6 L87.0 24.2 M100.4 43.0 L103.8 41.0 M102.0 64.0 L110.0 64.0 M100.4 85.0 L103.8 87.0 M85.0 100.4 L87.0 103.8 M64.0 102.0 L64.0 110.0 M43.0 100.4 L41.0 103.8 M27.6 85.0 L24.2 87.0 M26.0 64.0 L18.0 64.0 M27.6 43.0 L24.2 41.0 M43.0 27.6 L41.0 24.2" stroke-width="3"/>
+  <path d="M64 26 V64 L86 86"/>
+</svg>

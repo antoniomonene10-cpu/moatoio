@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useCallback, useEffect, useRef, useState } from "react";
 
-import ogShare from "@/assets/og-share.jpg.asset.json";
 import { BackToTop } from "@/components/site/BackToTop";
 import { BrandMark } from "@/components/site/Brand";
 import { LegalFooter } from "@/components/site/LegalFooter";
@@ -18,7 +17,9 @@ const TITLE = "MOATOIO | Vídeos e Fotografias Publicitárias em Moçambique";
 const DESCRIPTION =
   "Criamos vídeos publicitários, fotografias profissionais e carrosséis para produtos usando inteligência artificial. Envia uma fotografia e pede o teu orçamento à MOATOIO.";
 
-const OG_IMAGE_URL = `https://moatoio.lovable.app${ogShare.url}`;
+// Absolute URL required by WhatsApp/Facebook; the file is public/og-share.jpg (1200x630).
+const OG_IMAGE_URL = "https://moatoio.lovable.app/og-share.jpg";
+const OG_IMAGE_ALT = "MOATOIO — vídeos e fotografias publicitárias para produtos";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -36,12 +37,16 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "MOATOIO | Uma fotografia do produto, um vídeo com o produto." },
       { property: "og:description", content: "Transformamos fotografias de produtos em conteúdos publicitários profissionais." },
       { property: "og:image", content: OG_IMAGE_URL },
+      { property: "og:image:secure_url", content: OG_IMAGE_URL },
+      { property: "og:image:type", content: "image/jpeg" },
+      { property: "og:image:alt", content: OG_IMAGE_ALT },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "MOATOIO | Uma fotografia do produto, um vídeo com o produto." },
       { name: "twitter:description", content: "Transformamos fotografias de produtos em conteúdos publicitários profissionais." },
       { name: "twitter:image", content: OG_IMAGE_URL },
+      { name: "twitter:image:alt", content: OG_IMAGE_ALT },
     ],
     links: [
       { rel: "preload", as: "image", href: media("img/work/w04.webp") },

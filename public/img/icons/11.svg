@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none" stroke="#C6A15B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <title>Smartphone</title>
+  <rect x="34" y="10" width="60" height="108" rx="10"/>
+  <rect x="41" y="24" width="46" height="76" rx="2"/>
+  <path d="M58 17 H70"/>
+  <path d="M56 109 H72"/>
+</svg>
